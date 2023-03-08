@@ -1,0 +1,32 @@
+clean:
+ 
+  # # - sudo apt remove flash-kernel -y
+  # # - sudo dpkg --configure -a
+  # - sudo systemctl disable apt-daily.service apt-daily-upgrade.service
+  # - sudo systemctl disable apt-daily.timer apt-daily-upgrade.timer
+  # - sudo apt remove --purge -y unattended-upgrades
+  # - sudo apt update 
+
+  # - sudo apt remove flash-kernel -y
+  # - sudo systemctl disable apt-daily.service apt-daily-upgrade.service
+  # - sudo systemctl disable apt-daily.timer apt-daily-upgrade.timer
+  # - sudo apt remove --purge -f unattended-upgrades -y
+  # - sudo apt remove initramfs-tools -y
+  # - sudo apt clean
+  # - sudo apt install initramfs-tools -y
+
+  # - sudo apt remove update-manager -y
+  # - sudo apt purge unattended-upgrades -y
+  # - sudo apt remove --purge -f unattended-upgrades -y
+  # - sudo timedatectl set-ntp off && sudo timedatectl set-ntp on
+  # - sudo apt remove initramfs-tools -y
+  # - sudo apt clean
+  # - sudo apt install initramfs-tools -y
+  # - sudo apt remove flash-kernel -y
+
+  - sudo timedatectl set-ntp off && sudo timedatectl set-ntp on
+  - sudo apt update 
+  - sudo apt remove initramfs-tools -y
+  - sudo apt clean
+  - sudo apt install initramfs-tools -y
+  - sudo apt remove flash-kernel -y

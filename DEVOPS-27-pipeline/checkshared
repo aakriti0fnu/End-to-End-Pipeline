@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "Looking for shared folder ..."
+while ! [ -d shared ]
+do
+sleep 0.5
+done
+echo "Found shared. Importing access_token ..."
+sudo cat shared/cwd/.env | sudo tee -a /etc/environment &>/dev/null
+echo "Importing complete."
+rm -- "$0"

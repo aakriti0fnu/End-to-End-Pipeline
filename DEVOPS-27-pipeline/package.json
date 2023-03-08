@@ -1,0 +1,29 @@
+{
+    "name": "pipeline",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "pipeline build mutation-coverage build.yml"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "child_process": "^1.0.2",
+        "dotenv": "^16.0.0",
+        "escodegen": "^2.0.0",
+        "esprima": "^4.0.1",
+        "got": "^11.8.3",
+        "hasbin": "^1.2.3",
+        "http-proxy": "^1.18.1",
+        "js-yaml": "^4.1.0",
+        "matches-subimage": "^1.0.1",
+        "pixelmatch": "^5.2.1",
+        "pm2": "^5.2.0",
+        "pngjs": "^6.0.0",
+        "puppeteer": "^13.5.2",
+        "random-js": "^2.1.0",
+        "yargs": "^17.4.0"
+    }
+}
