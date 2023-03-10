@@ -1,22 +1,4 @@
-# DEVOPS-27
-
-## Overview
-
-The complete project is a end-to-end pipeline that is implemented in three phases
-
-[M1](https://github.ncsu.edu/CSC-DevOps-S22/DEVOPS-27/tree/M1-Release) - Provision + Build
-- [Readme.md](https://github.ncsu.edu/CSC-DevOps-S22/DEVOPS-27/blob/main/M1_README.md)
-
-
-[M2](https://github.ncsu.edu/CSC-DevOps-S22/DEVOPS-27/tree/M2-Release) - Provision + Build + Test
-- [Readme.md](https://github.ncsu.edu/CSC-DevOps-S22/DEVOPS-27/blob/main/M2_README.md)
-
-[M3](https://github.ncsu.edu/CSC-DevOps-S22/DEVOPS-27/tree/main) - Provision + Build + Test + Deploy
-- [Readme.md](https://github.ncsu.edu/CSC-DevOps-S22/DEVOPS-27/blob/main/M3_README.md)
-
---------------------
-
-# F0
+# F0 (Usage of end-to-end pipeline in two new jobs)
 
 ## New Pipeline Jobs
 
